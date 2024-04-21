@@ -1,0 +1,13 @@
+// setup se ejecuta al inicio
+void setup(){
+  size(600, 600); // indica el tamño del display
+}
+
+void draw(){ // La función ejecuta continuamente las líneas de código contenidas dentro de su bloque
+  background(212, 177, 239); // indica el color del fondo
+  fill(129, 29, 216); // indica el color de la figura
+  ellipse(80, 80, 100, 100); // indica la forma seleccionada
+fill(129, 29, 216);
+textSize(90); // tamaño del texto
+text("Lilian", 150, 120); 
+}
